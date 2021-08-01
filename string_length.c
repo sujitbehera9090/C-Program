@@ -1,8 +1,6 @@
 
 #include<stdio.h>
 
-#include<conio.h>
-
 #include<stdlib.h>
 
 #include<string.h>
@@ -16,8 +14,6 @@ int main(){
     system("cls");
 
     printf("\n\tLength of str1[]: %d\n" , len);
-
-    getch();
 
     return 0;
 
