@@ -1,4 +1,5 @@
 
+
 #include<stdio.h>
 
 #include<stdlib.h>
@@ -7,13 +8,39 @@
 
 int main(){
 
-    char str1[] = "Sujit Kumar Behera";
+    int length;
 
-    int len = strlen(str1);
+    int i = 0;
+
+    int count = 0;
+
+    char name[30];
 
     system("cls");
 
-    printf("\n\tLength of str1[]: %d\n" , len);
+    printf("\nEnter your name: ");
+
+    gets(name);
+
+    puts( name );
+
+    // Find length of string by strlen()
+
+    length = strlen( name );
+
+    printf("\n\tLength of string by strlen() function: %d\n" , length);
+
+    // Find length of string by while loop
+
+    while ( name[i] != '\0'){
+
+        i++;
+
+        count++;
+
+    }
+
+    printf("\n\tLength of string by for loop: %d\n" , count);
 
     return 0;
 
