@@ -6,7 +6,7 @@ int main(){
 
     char str1[] = "Sujit Kumar Behera";
 
-    char str2[10];
+    char str2[30];
 
     system("cls");
 
@@ -16,9 +16,9 @@ int main(){
 
     }
 
-    printf("%s" , str1);
+    puts(str1);
 
-    printf("%s\n" , str2);
+    puts(str2);
 
     return 0;
 
