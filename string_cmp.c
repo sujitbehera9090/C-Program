@@ -4,7 +4,7 @@
 
 int main(){
 
-    char str1[] = "Sujit";
+    char str1[] = "Sujit Kumar Behera";
 
     char str2[10];
 
