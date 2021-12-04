@@ -4,11 +4,15 @@
 
 int main(){
 
-    char str1[] = "Sujit Kumar Behera";
+    char str1[30];
 
     char str2[30];
 
     system("cls");
+
+    printf("\nEnter name : ");
+
+    gets(str1);
 
     for(int i = 0;i<strlen(str1);i++){
 

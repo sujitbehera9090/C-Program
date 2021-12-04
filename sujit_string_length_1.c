@@ -12,7 +12,7 @@ int main(){
 
     int i = 0;
 
-    int count = 0;
+    int count = 0 , y;
 
     char name[30];
 
@@ -40,10 +40,13 @@ int main(){
 
     }
 
-    printf("\n\tLength of string by for loop: %d\n" , count);
+    printf("\n\tLength of string by while loop: %d\n" , count);
+
+    y = printf("%s" , name);
+
+    printf("%d" , y);
 
     return 0;
 
 }
 
-// string_length.c
